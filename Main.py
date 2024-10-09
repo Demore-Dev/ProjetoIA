@@ -52,7 +52,7 @@ from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv, find_dotenv
 
 #Encontrando a chave API
-_ = load_dotenv(find_dotenv())
+_ = load_dotenv(find_dotenv('key.env'))
 
 # Prompt que faz a classificação:
 template = """
